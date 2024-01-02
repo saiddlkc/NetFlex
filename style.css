@@ -7,19 +7,20 @@ body {
 header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 header .header-div h1 {
-  color: red;
+  color: rgb(131, 116, 116);
 }
 
-.startButton .bg-red {
-  background-color: red;
+.startButton {
+  background-color: rgb(131, 116, 116);
   color: black;
 }
 
 .movieContainer {
   color: rgb(238, 232, 232);
-  border: 2px red solid;
+  border: 2px rgb(131, 116, 116) solid;
   font-weight: bold;
   gap: 3;
   display: flex;
@@ -39,4 +40,55 @@ header .header-div h1 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.form-box {
+  border: 2px black solid;
+  width: 90%;
+  max-width: 330px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  padding: 50px 60px 70px;
+  text-align: center;
+}
+.form-box h1 {
+  font-size: 60px;
+}
+.inputArray {
+  width: 190px;
+  height: 50px;
+}
+
+.input-field {
+  background-color: rgb(1, 13, 9);
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 2.4px;
+}
+
+.input-field i {
+  color: red;
+  margin-left: 15px;
+}
+
+form p {
+  font-size: 13px;
+}
+
+form p a {
+  text-decoration: none;
+  color: rgb(248, 244, 244);
+}
+
+/*# sourceMappingURL=style.css.map */

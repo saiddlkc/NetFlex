@@ -41,3 +41,60 @@ header {
   flex-wrap: wrap;
   gap: 6px;
 }
+.form-box {
+  border: 2px black solid;
+  width: 90%;
+  max-width: 330px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  padding: 50px 60px 70px;
+  text-align: center;
+  h1 {
+    font-size: 60px;
+  }
+}
+.input-field {
+  background-color: rgb(1, 13, 9);
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+}
+.input-field i {
+  color: red;
+  margin-left: 15px;
+}
+input {
+  color: red;
+}
+form p {
+  font-size: 13px;
+  // text-align: ce;
+}
+form p a {
+  text-decoration: none;
+  color: rgb(248, 244, 244);
+}
+.btn-field {
+  width: 100%;
+  margin-top: 10px;
+}
+.btn-field button {
+  height: 40px;
+  width: 85px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: red;
+  font-size: 16px;
+  background-color: black;
+}
