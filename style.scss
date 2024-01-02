@@ -1,0 +1,43 @@
+body {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/60f99103-670e-43c1-9637-9cd77656b788/DE-en-20231204-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  flex-direction: row;
+
+  .header-div {
+    h1 {
+      color: red;
+    }
+  }
+}
+.startButton {
+  .bg-red {
+    background-color: red;
+    color: black;
+  }
+}
+.movieContainer {
+  color: rgb(238, 232, 232);
+  border: 2px red solid;
+  font-weight: bold;
+  gap: 3;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 300px;
+}
+.movieContainer:hover {
+  transform: scale(0.96);
+  border: none;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+}
