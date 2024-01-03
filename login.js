@@ -10,23 +10,24 @@ const About = document.getElementById("About");
 const Home = document.getElementById("Home");
 
 startLog.addEventListener("click", () => {
-  wrapper.classList.add("visibility");
-  // box.innerHTML = `  <div id="box" class="form-box login">
-  //           <form action="">
-  //               <div class="input-box">
-  //                   <i class="fa-solid fa-envelope"></i>
-  //                   <span class="icon"></span>
-  //                   <input id="email" type="email" placeholder="Email" required>
+  box.innerHTML = `    <div id="wrapper" class="wrapper">
+  <div id="box" class="form-box login">
+      <form action="">
+          <div class="input-box">
+              <i class="fa-solid fa-envelope"></i>
+              <span class="icon"></span>
+              <input id="email" type="email" placeholder="Email" required>
 
-  //               </div>
-  //               <div class="input-box">
-  //                   <i class="fa-solid fa-lock"></i>
-  //                   <span class="icon"></span>
-  //                   <input id="password" type="password" placeholder="Password" required>
-  //               </div>
-  //               <button id="loginBtn" class="btn-login">Login</button>
-  //           </form>
-  //       </div>`;
+          </div>
+          <div class="input-box">
+              <i class="fa-solid fa-lock"></i>
+              <span class="icon"></span>
+              <input id="password" type="password" placeholder="Password" required>
+          </div>
+          <button id="loginBtn" class="btn-login">Login</button>
+      </form>
+  </div>
+</div>`;
 });
 
 const checkData = (e) => {
@@ -46,12 +47,22 @@ loginBtn.addEventListener("click", checkData);
 
 Home.addEventListener("click", (e) => {
   e.preventDefault();
-  wrapper.classList.add("visibility");
+
   box.innerHTML = "Netflex Clone Click Login to Start";
 });
 
 About.addEventListener("click", (e) => {
   e.preventDefault();
-  wrapper.classList.add("visibility");
+
   box.innerHTML = "SAID ALI DALKILIC <br> DCI fbw wd23_d07 ";
+});
+Services.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  box.innerHTML = "Search Movies or Series and save them for Later";
+});
+Contact.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  box.innerHTML = `If U have any Questions,contact me on <a href="https://github.com/saiddlkc">Github</a>`;
 });

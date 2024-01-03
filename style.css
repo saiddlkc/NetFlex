@@ -1,94 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/60f99103-670e-43c1-9637-9cd77656b788/DE-en-20231204-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: rgba(144, 140, 140, 0.198);
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-}
-header .header-div h1 {
-  color: rgb(131, 116, 116);
-}
-
-.startButton {
-  background-color: rgb(131, 116, 116);
-  color: black;
-}
-
-.movieContainer {
-  color: rgb(238, 232, 232);
-  border: 2px rgb(131, 116, 116) solid;
-  font-weight: bold;
-  gap: 3;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  overflow: hidden;
-  width: 300px;
-}
-
-.movieContainer:hover {
-  transform: scale(0.96);
-  border: none;
-}
-
-.contentDiv {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.form-box {
-  border: 2px black solid;
-  width: 90%;
-  max-width: 330px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: red;
-  padding: 50px 60px 70px;
-  text-align: center;
-}
-.form-box h1 {
-  font-size: 60px;
-}
-.inputArray {
-  width: 190px;
-  height: 50px;
-}
-
-.input-field {
-  background-color: rgb(1, 13, 9);
-  margin: 15px 0;
-  border-radius: 3px;
-  display: flex;
   align-items: center;
 }
 
-input {
-  width: 100%;
-  border: 0;
-  outline: 0;
-  padding: 2.4px;
+.logo {
+  font-size: 2em;
+  color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
-.input-field i {
-  color: red;
-  margin-left: 15px;
-}
-
-form p {
-  font-size: 13px;
-}
-
-form p a {
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: white;
   text-decoration: none;
-  color: rgb(248, 244, 244);
+  font-weight: 600;
+  margin-left: 40px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.navigation a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 1s;
+}
+
+.navigation a:hover::after {
+  transform: scaleX(1);
+}
+
+.navigation .login-btn-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: 1s;
+}
+
+.navigation .login-btn-popup:hover {
+  background-color: white;
+  color: black;
+}
+
+.wrapper {
+  visibility: hidden;
+  width: 400px;
+  height: 240px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.btn-login {
+  width: 100px;
+  height: 37px;
+  font-size: 1.2em;
+  margin-left: 30%;
+  margin-top: 44px;
+  background-color: rgb(12, 1, 1);
+  border-radius: 6px;
+}
+.searchbtn {
+  margin-right: 550px;
+  padding: 5px;
+}
+.searchbar {
+  padding: 5px;
+}
+.searchbtn:hover {
+  color: white;
+  background-color: black;
+  scale: 1.2;
+}
+.showContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 12px;
+}

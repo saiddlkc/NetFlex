@@ -70,7 +70,6 @@ header {
   color: black;
 }
 .wrapper {
-  visibility: hidden;
   width: 400px;
   height: 240px;
   border: 2px solid white;
@@ -99,9 +98,6 @@ header {
   margin-top: 44px;
   background-color: white;
   border-radius: 6px;
-}
-.visibility {
-  visibility: visible;
 }
 .next {
   text-decoration: none;

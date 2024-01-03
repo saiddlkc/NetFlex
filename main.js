@@ -1,11 +1,12 @@
 import key from "/key.js";
 const apiKey = key.key;
-const btn = document.querySelector(".btn");
+const btn = document.querySelector(".searchbtn");
 const body = document.querySelector("body");
-const inputValue = document.querySelector(".inputArray");
+const inputValue = document.querySelector(".searchbar");
+const startLog = document.querySelector("#startLog");
 
 async function fetchData() {
-  const inputValue = document.querySelector(".inputArray").value;
+  const inputValue = document.querySelector(".searchbar").value;
   const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=${inputValue}`;
 
   try {
@@ -51,3 +52,6 @@ inputValue.addEventListener("keydown", function (e) {
 function clearInput() {
   inputValue.value = "";
 }
+startLog.addEventListener("click", () => {
+  window.location = "login.html";
+});
