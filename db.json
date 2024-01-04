@@ -1,0 +1,395 @@
+{
+  "Movies": [
+    {
+      "id": 1,
+      "Title": "Batman Begins",
+      "Year": "2005",
+      "Rated": "PG-13",
+      "IMDbRating": "8.2",
+      "Released": "15 Jun 2005",
+      "Runtime": "140 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Christopher Nolan",
+      "Writer": "Bob Kane, David S. Goyer, Christopher Nolan",
+      "Actors": "Christian Bale, Michael Caine, Ken Watanabe",
+      "Plot": "After witnessing his parents' death, Bruce learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.",
+      "Language": "English, Mandarin",
+      "Country": "United States, United Kingdom",
+      "Awards": "Nominated for 1 Oscar. 14 wins & 79 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "85%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "70/100"
+        }
+      ],
+      "Metascore": "70",
+      "imdbRating": "8.2",
+      "imdbVotes": "1,552,357",
+      "imdbID": "tt0372784",
+      "Type": "movie",
+      "DVD": "09 Sep 2009",
+      "BoxOffice": "$206,863,479",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+
+    {
+      "id": 2,
+      "Title": "The Batman",
+      "Year": "2022",
+      "Rated": "PG-13",
+      "IMDbRating": "7.8",
+      "Released": "04 Mar 2022",
+      "Runtime": "176 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Matt Reeves",
+      "Writer": "Matt Reeves, Peter Craig, Bob Kane",
+      "Actors": "Robert Pattinson, Zoë Kravitz, Jeffrey Wright",
+      "Plot": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+      "Language": "English, Spanish, Latin, Italian",
+      "Country": "United States",
+      "Awards": "Nominated for 3 Oscars. 35 wins & 165 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2MyNTAwZGEtNTAxNC00ODVjLTgzZjUtYmU0YjAzNmQyZDEwXkEyXkFqcGdeQXVyNDc2NTg3NzA@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "85%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "72/100"
+        }
+      ],
+      "Metascore": "72",
+      "imdbRating": "7.8",
+      "imdbVotes": "753,503",
+      "imdbID": "tt1877830",
+      "Type": "movie",
+      "DVD": "19 Apr 2022",
+      "BoxOffice": "$369,345,583",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+
+    {
+      "id": 3,
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "Rated": "PG-13",
+      "IMDbRating": "6.5",
+      "Released": "25 Mar 2016",
+      "Runtime": "151 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Zack Snyder",
+      "Writer": "Bob Kane, Bill Finger, Jerry Siegel",
+      "Actors": "Ben Affleck, Henry Cavill, Amy Adams",
+      "Plot": "Batman is manipulated by Lex Luthor to fear Superman. Superman´s existence is meanwhile dividing the world and he is framed for murder during an international crisis. The heroes clash and force the neutral Wonder Woman to reemerge.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "14 wins & 33 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "29%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "44/100"
+        }
+      ],
+      "Metascore": "44",
+      "imdbRating": "6.5",
+      "imdbVotes": "743,708",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "DVD": "25 Nov 2016",
+      "BoxOffice": "$330,360,194",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 4,
+      "Title": "Watchmen",
+      "Year": "2009",
+      "Rated": "R",
+      "Released": "06 Mar 2009",
+      "Runtime": "162 min",
+      "IMDbRating": "8.5",
+      "Genre": "Action, Drama, Mystery",
+      "Director": "Zack Snyder",
+      "Writer": "Dave Gibbons, David Hayter, Alex Tse",
+      "Actors": "Jackie Earle Haley, Patrick Wilson, Carla Gugino",
+      "Plot": "In a version of 1985 where superheroes exist, the murder of a colleague sends active vigilante Rorschach on the trail of a conspiracy that will change the course of history.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "12 wins & 24 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2IzNGNiODgtOWYzOS00OTI0LTgxZTUtOTA5OTQ5YmI3NGUzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "65%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "56/100"
+        }
+      ],
+      "Metascore": "56",
+      "imdbRating": "7.6",
+      "imdbVotes": "573,344",
+      "imdbID": "tt0409459",
+      "Type": "movie",
+      "DVD": "31 Dec 2010",
+      "BoxOffice": "$107,509,799",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 5,
+      "Title": "Inception",
+      "Year": "2010",
+      "Rated": "PG-13",
+      "Released": "16 Jul 2010",
+      "Runtime": "148 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "Language": "English, Japanese, French",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 4 Oscars. 159 wins & 220 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "8.8/10" },
+        { "Source": "Rotten Tomatoes", "Value": "87%" },
+        { "Source": "Metacritic", "Value": "74/100" }
+      ],
+      "Metascore": "74",
+      "IMDbRating": "8.8",
+      "imdbVotes": "2,493,043",
+      "imdbID": "tt1375666",
+      "Type": "movie",
+      "DVD": "20 Jun 2013",
+      "BoxOffice": "$292,587,330",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 6,
+      "Title": "Der Pate",
+      "Year": "1972",
+      "IMDbRating": "9.2/10",
+      "Plot": "Der alternde Patriarch einer organisierten Verbrecherdynastie überträgt die Kontrolle über sein geheimes Imperium auf seinen widerwilligen Sohn.",
+      "Director": "Francis Ford Coppola",
+      "Actors": "Marlon Brando, Al Pacino, James Caan",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 7,
+      "Title": "Der Pate II",
+      "Year": "1974",
+      "IMDbRating": "9.0/10",
+      "Plot": "Das frühe Leben und die Karriere von Vito Corleone in New York der 1920er Jahre werden dargestellt, während sein Sohn Michael das Familienverbrechersyndikat erweitert und festigt.",
+      "Director": "Francis Ford Coppola",
+      "Actors": "Al Pacino, Robert De Niro, Robert Duvall",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 8,
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "IMDbRating": "9.0/10",
+      "Plot": "Wenn die Bedrohung namens The Joker auftaucht, muss Batman eine der größten psychologischen und physischen Herausforderungen seiner Fähigkeit zur Bekämpfung von Ungerechtigkeit bewältigen.",
+      "Director": "Christopher Nolan",
+      "Actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 9,
+      "Title": "Die zwölf Geschworenen",
+      "Year": "1957",
+      "IMDbRating": "9.0/10",
+      "Plot": "Ein Geschworener versucht, eine Fehlentscheidung zu verhindern, indem er seine Kollegen zwingt, die Beweise neu zu überdenken.",
+      "Director": "Sidney Lumet",
+      "Actors": "Henry Fonda, Lee J. Cobb, Martin Balsam",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 10,
+      "Title": "Schindlers Liste",
+      "Year": "1993",
+      "IMDbRating": "8.9/10",
+      "Plot": "In von Deutschland besetzten Polen während des Zweiten Weltkriegs versucht Oskar Schindler, seine jüdischen Arbeiter vor der Vernichtung zu retten.",
+      "Director": "Steven Spielberg",
+      "Actors": "Liam Neeson, Ralph Fiennes, Ben Kingsley",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 11,
+      "Title": "Der Herr der Ringe: Die Rückkehr des Königs",
+      "Year": "2003",
+      "IMDbRating": "8.9/10",
+      "Plot": "Die Gefährten setzen alles daran, Frodo seinen gefährlichen Weg nach Mordor zu ermöglichen, während Aragorn die Kräfte von Sauron ablenkt.",
+      "Director": "Peter Jackson",
+      "Actors": "Elijah Wood, Viggo Mortensen, Ian McKellen",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 12,
+      "Title": "Pulp Fiction",
+      "Year": "1994",
+      "IMDbRating": "8.9/10",
+      "Plot": "Die Geschichten von Gangstern, Kellnern, Boxern, einer Gangsterfrau und einem Paar Einbrecher verbinden sich auf unerwartete Weise in den Straßen von Los Angeles.",
+      "Director": "Quentin Tarantino",
+      "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 13,
+      "Title": "Der gute Hirte",
+      "Year": "2006",
+      "IMDbRating": "6.7/10",
+      "Plot": "Die Geschichte eines jungen Mannes, der sich dem Geheimdienst anschließt und die Herausforderungen und Opfer seines Lebens in dieser Welt erfährt.",
+      "Director": "Robert De Niro",
+      "Actors": "Matt Damon, Angelina Jolie, Robert De Niro",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 14,
+      "Title": "Fight Club",
+      "Year": "1999",
+      "IMDbRating": "8.8/10",
+      "Plot": "Ein Büroangestellter und ein Seifenverkäufer gründen einen geheimen Club, in dem Männer ihre aggressiven Gefühle ausdrücken können.",
+      "Director": "David Fincher",
+      "Actors": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+      "PosterURL": "URL-zum-Poster"
+    },
+
+    {
+      "id": 15,
+      "Title": "Forrest Gump",
+      "Year": "1994",
+      "IMDbRating": "8.8/10",
+      "Plot": "Die ungewöhnliche Lebensgeschichte von Forrest Gump, einem Mann mit niedrigem IQ, der in wichtigen historischen Ereignissen involviert ist.",
+      "Director": "Robert Zemeckis",
+      "Actors": "Tom Hanks, Robin Wright, Gary Sinise",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 16,
+      "Title": "Inception",
+      "Year": "2010",
+      "IMDbRating": "8.8/10",
+      "Plot": "Ein Dieb, der in den Träumen anderer stiehlt, wird beauftragt, das scheinbar Unmögliche zu tun: Inception.",
+      "Director": "Christopher Nolan",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 17,
+      "Title": "Der Herr der Ringe: Die zwei Türme",
+      "Year": "2002",
+      "IMDbRating": "8.7/10",
+      "Plot": "Frodo und Sam setzen ihren Weg nach Mordor fort, während Aragorn, Legolas und Gimli den in Helms Klamm belagerten Menschen helfen.",
+      "Director": "Peter Jackson",
+      "Actors": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 18,
+      "Title": "Der Herr der Ringe: Die Gefährten",
+      "Year": "2001",
+      "IMDbRating": "8.8/10",
+      "Plot": "Ein junger Hobbit begibt sich mit einer Gruppe von Gefährten auf eine gefährliche Mission, um einen mächtigen Ring zu zerstören.",
+      "Director": "Peter Jackson",
+      "Actors": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 19,
+      "Title": "Das Schweigen der Lämmer",
+      "Year": "1991",
+      "IMDbRating": "8.6/10",
+      "Plot": "Ein junger FBI-Agent bittet einen inhaftierten Serienmörder um Hilfe, um einen anderen Mörder zu fassen, der Opfer nach einem bestimmten Muster auswählt.",
+      "Director": "Jonathan Demme",
+      "Actors": "Jodie Foster, Anthony Hopkins, Lawrence A. Bonney",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 20,
+      "Title": "Matrix",
+      "Year": "1999",
+      "IMDbRating": "8.7/10",
+      "Plot": "Ein Hacker wird in einen Krieg zwischen Menschen und Maschinen verwickelt, nachdem er die Wahrheit über die Realität entdeckt hat.",
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 21,
+      "Title": "Die sieben Samurai",
+      "Year": "1954",
+      "IMDbRating": "8.6/10",
+      "Plot": "Ein Bauer heuert sieben Samurai an, um sein Dorf vor marodierenden Banditen zu schützen.",
+      "Director": "Akira Kurosawa",
+      "Actors": "Toshirô Mifune, Takashi Shimura, Keiko Tsushima",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 22,
+      "Title": "Das Leben ist schön",
+      "Year": "1997",
+      "IMDbRating": "8.6/10",
+      "Plot": "Ein jüdischer Vater nutzt seine Vorstellungskraft, um seinem Sohn die Grausamkeiten des Konzentrationslagers zu verbergen.",
+      "Director": "Roberto Benigni",
+      "Actors": "Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 23,
+      "Title": "Gladiator",
+      "Year": "2000",
+      "IMDbRating": "8.5/10",
+      "Plot": "Ein römischer General wird von einem korrupten Kaiser verraten und kämpft als Gladiator, um Rache zu nehmen.",
+      "Director": "Ridley Scott",
+      "Actors": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
+      "PosterURL": "URL-zum-Poster"
+    },
+    {
+      "id": 24,
+      "Title": "Einer flog über das Kuckucksnest",
+      "Year": "1975",
+      "IMDbRating": "8.7/10",
+      "Plot": "Ein neuer Insasse in einer psychiatrischen Anstalt bringt den Alltag der Patienten durcheinander und setzt sich gegen die autoritären Methoden des Pflegepersonals zurück"
+    }
+  ],
+  "Series": [{}]
+}

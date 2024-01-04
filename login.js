@@ -11,23 +11,22 @@ const Home = document.getElementById("Home");
 
 startLog.addEventListener("click", () => {
   box.innerHTML = `    <div id="wrapper" class="wrapper">
-  <div id="box" class="form-box login">
-      <form action="">
-          <div class="input-box">
-              <i class="fa-solid fa-envelope"></i>
-              <span class="icon"></span>
-              <input id="email" type="email" placeholder="Email" required>
-
-          </div>
-          <div class="input-box">
-              <i class="fa-solid fa-lock"></i>
-              <span class="icon"></span>
-              <input id="password" type="password" placeholder="Password" required>
-          </div>
-          <button id="loginBtn" class="btn-login">Login</button>
-      </form>
-  </div>
-</div>`;
+    <div id="box" class="form-box login">
+        <form action="">
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="icon"></span>
+                <input id="email" type="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <span class="icon"></span>
+                <input id="password" type="password" placeholder="Password" required>
+            </div>
+            <button id="loginBtn" class="btn-login">Login</button>
+        </form>
+    </div>
+  </div>`;
 });
 
 const checkData = (e) => {

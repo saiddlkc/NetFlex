@@ -15,13 +15,14 @@ body {
 
 header {
   position: fixed;
+  margin-bottom: 100px;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
-  padding: 20px 100px;
+  height: 100px;
   background-color: rgba(144, 140, 140, 0.198);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -114,7 +115,6 @@ header {
   border-radius: 6px;
 }
 .searchbtn {
-  margin-right: 550px;
   padding: 5px;
 }
 .searchbar {
@@ -130,6 +130,57 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 100px;
-  gap: 12px;
+  margin-top: 200px;
+  gap: 8px;
 }
+.showContent img {
+  width: 165px;
+  height: 253px;
+  border: 1px solid white;
+}
+.movieContainer {
+  color: rgb(238, 232, 232);
+  border: 2px rgb(94, 92, 92) solid;
+  font-weight: bold;
+  /* gap: 3; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 5px;
+  width: 198px;
+  border-radius: 7px;
+  padding: 15px;
+}
+.movieContainer:hover {
+  border: 2px white solid;
+  transition: 0.9s;
+  scale: 1.2;
+  z-index: 1;
+  background-color: black;
+}
+.cracky {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 340px;
+  flex-direction: column;
+  border: 2px solid white;
+  padding: 7px;
+  overflow: hidden;
+}
+.cracky h4 {
+  font-size: larger;
+  text-decoration: underline;
+}
+.cracky span {
+  color: red;
+}
+/* .cracky img {
+  width: 180px;
+  height: 130px;
+} */
+/* .invis {
+  display: none;
+  transition: 1s;
+} */
