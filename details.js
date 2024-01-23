@@ -9,7 +9,7 @@ const renderDetails = async () => {
   const template = `
     <h1>${movie.Title}</h1>
     <p>Actors
-    :${movie.Actors}</p>
+    : ${movie.Actors}</p>
     <p>Awards: ${movie.Awards}</p>
     <p>Director
     :${movie.Director}</p>

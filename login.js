@@ -32,7 +32,7 @@ startLog.addEventListener("click", () => {
 const checkData = (e) => {
   e.preventDefault();
   if (
-    inputEmail.value === "saidalkilic@gmail.com" &&
+    inputEmail.value === "test@gmail.com" &&
     inputPassword.value === "12345678"
   ) {
     box.innerHTML =
